@@ -15,13 +15,14 @@
     "logging",
     "tools"
   ],
-  "author": "Naga (nagagoutam42@gmail.com)",
+  "author": "Naga Goutam <nagagoutam42@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bng1/logbook/issues"
   },
   "homepage": "https://github.com/bng1/logbook",
   "devDependencies": {
+    "jshint": "^2.9.4",
     "vows": "^0.8.1"
   }
 }
