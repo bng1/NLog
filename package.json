@@ -4,7 +4,7 @@
   "description": "Logging for Node JS",
   "main": "./lib/logbook",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vows ./test/*.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/bng1/logbook/issues"
   },
-  "homepage": "https://github.com/bng1/logbook"
+  "homepage": "https://github.com/bng1/logbook",
+  "devDependencies": {
+    "vows": "^0.8.1"
+  }
 }
